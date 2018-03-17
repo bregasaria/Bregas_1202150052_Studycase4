@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bregasaria.bregasariawicaksana_1202150052_studycase4.PencarianGambar">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cari Gambar"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/urlgambar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan URL Gambar"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_cari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Klik Untuk Mencari Gambar"
+        android:textAllCaps="false" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:id="@+id/gambar"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
